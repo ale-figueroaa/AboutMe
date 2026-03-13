@@ -1,0 +1,265 @@
+td.lunes {
+    background-color: #F1D4D6;
+    transition: background-color 0.3s;
+}
+td.martes {
+    background-color: #DFA3A6;
+    transition: background-color 0.3s;
+}
+td.miercoles {
+    background-color: #F1D4D6;
+    transition: background-color 0.3s;
+}
+td.jueves {
+    background-color: #DFA3A6;
+    transition: background-color 0.3s;
+}
+td.viernes {
+    background-color: #F1D4D6;
+    transition: background-color 0.3s;
+}
+table td{
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #5A1F27;
+  font-family: FontTest;
+  text-align: center;
+  vertical-align: middle; 
+}
+th.time{
+  font-family: FontButtons;
+}
+table th{
+  font-family: FontButtons;
+}
+.emptytd{
+  background-color: #5A1F27;
+}
+table{
+  background-color: #DFA3A6;
+}
+.lunes:hover {
+  background-color: #7F3A3F;
+}
+.martes:hover {
+  background-color: #7F3A3F;
+}
+.miercoles:hover {
+  background-color: #7F3A3F;
+}
+.jueves:hover {
+  background-color: #7F3A3F;
+}
+.viernes:hover {
+  background-color: #7F3A3F;
+}
+
+.header{
+    background-color: rgb(168, 71, 118);
+}
+
+.MECV{
+    background-color: rgb(238, 133, 201);
+}
+
+
+@font-face {
+  font-family: FontButtons; 
+  src: url(NixieOne.ttf); 
+}
+@font-face {
+  font-family: FontElegant; 
+  src: url(Valentina\ Orchestra.ttf); 
+}
+@font-face {
+  font-family: FontTitle; 
+  src: url(Tangier.otf); 
+}
+@font-face {
+  font-family: FontTest; 
+  src: url(EditorialToday-Regular.ttf); 
+}
+.infoYo{
+  background-color: #E6B3BA;
+  padding: 10px; 
+}
+.index{
+  background-color: #5E6623;
+  padding: 10px;
+}
+.CVbody{
+  padding: 10px;
+  background-color: #EAEBC8;
+}
+.horarioBody{
+  padding: 10px;
+  background-color: #7e474d;
+}
+.indexBTN{
+  padding: 10px  0px 10px 0px;
+  color: #d4d994;
+  font-size: 2rem;
+  font-family: FontButtons;
+}
+.indexBTN:hover{
+  transform: scale(1.10);
+  color: #d0d2b4;
+}
+h1{
+  font-family: FontElegant;
+}
+h2{
+  font-family: FontButton;
+}
+h3{
+  font-family: FontTitle;
+}
+h4{
+  font-family: FontTest;
+}
+.IndexTitle{
+  color: #d0d2b4;
+  margin-top: -40px;
+  z-index: 2;
+}
+.IndexBody img {
+  opacity: 0.65;
+}
+.IndexTitle h1{
+  font-size: 8rem;
+}
+.IndexTitle h2{
+  font-size: 10rem;
+}
+body{
+  margin: 0;
+}
+.custom-img {
+  width: 1200px;   
+  height: 500px;    
+  object-fit: cover;  
+}
+
+.BtnIY:hover{
+  color: #893941;
+}
+.BtnIY{
+  color: #5A1F27;
+}
+.titleInfo h3{
+  color: #5A1F27;
+  font-size: 5rem;
+  line-height: 0.3;
+}
+.titleInfo h1{
+  color: #5E6623;
+  font-size: 6rem;
+  line-height: 0.3;
+}
+.titleInfoCV h3{
+  color: #5A1F27;
+  font-size: 5rem;
+  line-height: 0.1;
+}
+.titleInfoCV h1{
+  color: #5E6623;
+  font-size: 6rem;
+  line-height: 0.9;
+}
+.titleInfoHorario h3{
+  color: #d4d994;
+  font-size: 5rem;
+  line-height: 0.8;
+}
+.titleInfoHorario h1{
+  color: #B65F6B;
+  font-size: 8rem;
+  line-height: 0.6;
+  margin-top: -25px;
+}
+.banner h4{
+  font-size: 3rem;
+  color: #893941;
+}
+.banner h2{
+  font-size: 4rem;
+}
+.carousel-img{
+  height: 500px;     
+  object-fit: cover;
+  border-radius: 25px;
+}
+.carousel-item {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 90%;
+  background-color: #5E6623; 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.95;
+}
+.overlay-content {
+  color: #D4D994;
+}
+
+.cvBTN h2{
+  color: #5A1F27;
+}
+.cvBTN h2:hover{
+  color: #7c454d;
+}
+.carrer{
+  line-height: 0.6;
+  opacity: 0.7;
+}
+.nameCV{
+  line-height: 0.3;
+}
+.meCV{
+  padding-bottom: 25px;
+}
+.accordion{
+  padding: 15%;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #5E6623;
+  color: white;
+}
+.CVheaders{
+  font-family: FontTitle;
+  text-align: center;
+  font-size: 2rem;
+}
+.accordion-button{
+  background-color: #b2bd7c;
+  border-color: #5E6623;
+}
+.insideAcc{
+  font-family: FontTest;
+  font-size: 1.5rem;
+}
+.sub{
+  font-family: FontButtons;
+}
+.accordion-body{
+  padding: 15px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.table {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.CVinfo{
+  margin-top: -30px;
+}

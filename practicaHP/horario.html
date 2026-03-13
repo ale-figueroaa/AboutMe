@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Horario</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+  </head>
+    </head>
+    <body class="horarioBody">
+        <div class="container-fluid py-3">
+            <div class="row">
+                <div class="barRight col d-flex justify-content-start gap-3">
+                    <div class=""> 
+                        <a href="index.html"><button type="button" class="btn indexBTN mx-3"><h2>Home</h2></button></a>
+                    </div>
+                    <div class=""> 
+                        <a href="infoPersonal.html"><button type="button" class="btn indexBTN mx-3"><h2>All About Me</h2></button></a>
+                    </div>
+                </div>
+                <div class="barLeft col d-flex justify-content-end gap-3">
+                    <div class="">
+                       <a href="horario.html"><button type="button" class="btn indexBTN mx-3"><h2>Schedule</h2></button></a>
+                    </div>
+                    <div class="">
+                        <a href="cv.html"><button type="button" class="btn indexBTN mx-3"><h2>Curriculum</h2></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner text-center">
+            <div class="titleInfoHorario">
+            <h1>class</h1>
+            <h3>DSBIS42M</h3>
+            </div>
+        </div>
+        <table class="table container text-center">
+          <thead>
+            <tr style="background-color: #f2f2f2;" class="table-danger">
+              <th></th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miercoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+            </tr>  
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td class="time">7:00</td>
+              <td class="lunes" rowspan="2">Etica Profesional</td>
+              <td class="martes">Análisis y Diseño de Software</td>
+              <td class="emptytd"></td>
+              <td class="jueves" rowspan="2">Análisis y Diseño de Software</td>
+              <td class="viernes" rowspan="2">Estructura de Datos</td>
+            </tr>
+            <tr>
+              <td class="time">8:00</td>
+              <td class="martes" rowspan="2">Cálculo de Varias Variables</td>
+              <td class="miercoles">Cálculo de Varias Variables</td>
+            </tr>
+            <tr>
+              <td class="time">9:00</td>
+              <td class="lunes">Análisis y Diseño de Software</td>
+              <td class="miercoles">Desarrollo de Aplicaciones Móviles</td>
+              <td class="jueves">Desarrollo de Aplicaciones Móviles</td>
+              <td class="viernes">Análisis y Diseño de Software</td>
+            </tr>
+            <tr>
+              <td class="time">10:00</td>
+              <td class="lunes" rowspan="2">Idiomas</td>
+              <td class="martes" rowspan="2">Idiomas</td>
+              <td class="miercoles" rowspan="2">Idiomas</td>
+              <td class="jueves" rowspan="2">Idiomas</td>
+              <td class="viernes">Desarrollo de Aplicaciones Móviles</td>
+            </tr>
+            <tr>
+              <td class="time">11:00</td>
+              <td class="viernes">Etica Profesional</td>
+            </tr>
+            <tr>
+              <td class="time">12:00</td>
+              <td class="lunes">Cálculo de Varias Variables</td>
+              <td class="martes">Estructura de Datos</td>
+              <td class="miercoles">Aplicaciones Web</td>
+              <td class="jueves" rowspan="3">Aplicaciones Web</td>
+              <td class="viernes">Aplicaciones Web</td>
+            </tr>
+            <tr>
+              <td class="time">13:00</td>
+              <td class="lunes" rowspan="2">Desarrollo de Aplicaciones Móviles</td>
+              <td class="martes">Etica Profesional</td>
+              <td class="miercoles">Estructura de Datos</td>
+              <td class="viernes">Cálculo de Varias Variables</td>
+            </tr>
+            <tr>
+              <td class="time">14:00</td>
+              <td class="martes">Desarrollo de Aplicaciones Móviles</td>
+              <td class="miercoles">Estructura de Datos</td>
+              <td class="emptytd"></td>
+            </tr>
+          </tbody>
+        </table>
+    </body>
+</html>
